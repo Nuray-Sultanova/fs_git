@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.info{
+    padding: 10px;
+}
+.formbox{
+    width: 30%;
+    margin: 30px auto;
+    background-color:rgb(111, 177, 40);
+    border-radius: 5px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;  
+    padding: 10px ; 
+    background-color: rgb(130, 194, 34);
+    border-radius: 5px;
+}
+.box label{
+   padding: 5px 0;
+}
+.cardbox{
+display: flex;
+gap: 10px;
+}
+ .cardbox input{
+    width: 10%;
+}
+.cardbox img{ 
+    display:block;
+    width: 10%; }
+form{
+    padding: 20px;
+}
+
+form input,textarea{
+    width: 100%;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+

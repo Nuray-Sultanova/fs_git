@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+form input,textarea{
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+    padding: 10px 0;
+    background-color: rgb(207, 235, 245);
+    border: 2px solid rgb(207, 235, 245);;
+}
+form a{
+    background-color: orange;
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 0;
+    border: none;
+    text-align: center;
+    color: white;
+    
+   
+    
+}
+.socialmedia{
+    width: 100%;
+    display: flex;
+    gap: 3px;
+    font-size: 20px;
+    margin: 10px 0;
+    color: orange;
+}
+.icon{
+    font-size: 13px;
+    color: orange;
+    margin: 0 3px;
+}
+.elaqe{
+    background-color: rgb(213, 236, 243);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.information h2,p{
+    color: rgb(20, 20, 147);
+}

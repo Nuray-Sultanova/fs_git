@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.bg{
+    width: 100%;
+    height: 750px;
+  background-image: 
+    linear-gradient(rgba(212, 106, 8, 0.5), rgba(0,0,0,0.5)),
+    url(../images/mountain.jpg);                       
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input{
+    border-top-color: white;
+}
+.form-box{
+    border-radius: 10px;
+    padding: 20px ;
+    background-color: #fff;
+    margin: 30px auto;
+    width: 30%;
+      
+}
+.form-box h2{
+    text-align: center;
+    padding:30px ;
+}
+form input,
+form textarea {
+display: block;   
+width: 100%;      
+margin-bottom: 10px;
+padding: 5px;
+border: none;
+border-bottom: 2px solid grey;
+outline: none;
+}
+input:focus, 
+textarea:focus {
+  border-bottom: 2px solid #901546; 
+}
+form label{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+.btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+.btn-grad {
+margin: 10px;
+padding: 10px 30px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+ }
+.btn-grad:hover {
+background-position: right center; 
+color: #fff;
+text-decoration: none;
+          }
+.btn-grad {
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="qeydiyyatbox">
+        <div class="img-box">
+          <h2>Qeyddiyyatdan keçin</h2>
+          <p>
+            İstediyiniz kursu seçin ve sexsi melumatlarinizi daxil edin .Ən qısa
+            zamanda sizinlə əlaqə saxlayacayıq.
+          </p>
+          <img src="./images/images.png" alt="" />
+        </div>
+        <div class="form-bg">
+          <form>
+            <label for="course name">Kurs seçin</label>
+            <select id="course" name="coursetype">
+              <option value="">Kurs seçin</option>
+              <option value="programming">Proqramlaşdırma</option>
+              <option value="design">Dizayn</option>
+              <option value="security">İnformasiya Təhlükəsizliyi</option>
+              <option value="english">İngilis dili</option>
+            </select>
+
+            <label for="name">Adınız ve soyadınız</label>
+            <input type="text" id="name" placeholder="Ad Soyad" />
+
+            <label for="email">Emailiniz</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="exmaple@gmail.com"
+            />
+            <label for="contact">Əlaqə nömrəniz</label>
+            <input type="tel" id="contact" placeholder="055 555 55 55" />
+
+            <label for="time">Zəng üçün sizə uyğun olan vaxtı seçin</label>
+            <input type="time" placeholder="11:00 AM" />
+            <button>Qeydiyyat</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Zalando Sans Expanded", sans-serif;
+ 
+}
+.navigation{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c0e21;
+    
+}
+.navigation a{
+    padding: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid transparent;
+    
+}
+.navigation a:hover{
+   background-color: rgb(101, 68, 8);
+    border:1px solid rgb(255, 167, 2);
+}
+.linkler{
+    display: flex;
+    gap: 50px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+          
+}
+.box{
+  background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+  width: 100%;
+  padding: 40px 150px;
+  text-align: center;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 10px #eee;
+  
+}
+.txt{
+   
+    padding: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 70px 70px 50px;
+}
+.txt h1{
+    font-size: 70px;
+}
+.txt p{
+    margin: 10px 0 0;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+}
+.button{
+ background-color: #ffffff; 
+  color: #53346D; 
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00000055;
+  padding: 20px;
+  border:1px solid black;
+ 
+}
+.button:hover{
+  background-color: #53346D;
+  color: #fff;
+}
+.bahsliq{
+    font-size: 50px;
+    margin: 70px ;
+}
+.qutular{
+  
+    display: flex;
+    gap: 40px;    
+}
+
+.tables{
+    border: 1px solid purple;
+     display: block;
+     width: 50%;
+     
+}
+.qutu1{
+ padding: 20px;
+ border: 1px solid transparent;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+.qutu1:hover{
+    background-color: rgb(101, 68, 8);
+    border:1px solid rgb(255, 167, 2);
+}
+.qutu2{
+    padding: 30px;
+    border: 1px solid purple;
+    text-align: left;
+    border: 1px soldi transparent;
+}
+.qutu2 h1,p{
+    padding: 10px 0;
+    
+}
+.qutu2:hover{
+    background-color: rgb(101, 68, 8);
+    border:1px solid rgb(255, 167, 2);
+}
+ul{
+    list-style: none;
+}
+.information{
+   width: 50%;
+   text-align: left;
+  /* border: 1px solid black*/
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap:200px;
+    padding: 50px 0;
+}
+.sekil img{
+    width: 300px;
+}
+.information2{
+   width:50% ;
+   text-align: left;
+}

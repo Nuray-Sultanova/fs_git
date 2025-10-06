@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0;
+}
+.container{
+    width: 1200px;
+    margin: 200px auto;
+
+}
+.form-bg{
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(227, 244, 249);
+    border-radius: 10px;
+}
+.form-bg:hover{
+    box-shadow: 0 0 10px rgb(237, 236, 235);
+}
+form input,
+form label,
+form button,
+form select{
+    display: block;
+    width: 100%;
+    padding: 7px; 
+    
+   
+}
+
+form label{
+    font-size: 13px;
+    color: rgb(185, 170, 170);
+}
+form input,button{
+    margin: 5px 0;
+
+}
+.qeydiyyatbox{
+    display: flex;
+    margin: 50px;
+}
+form button{
+    background-color: rgb(255, 177, 31);
+    margin-top:15px ;
+}
+form button,input,select{
+    border-radius: 5px;
+}
+
+.img-box{
+    width: 70%;
+    margin: 50px ;
+}
+.img-box img{
+    display: block;
+    margin: 15px auto ;
+    width: 40%;
+}
+.img-box h2{
+    text-align: center;
+    margin: 0 0 10px;
+}
