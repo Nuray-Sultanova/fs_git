@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+background-color: #292E36;
+}
+.login-information{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Josefin
+    Sans , serif;
+}
+.rezervation  { 
+    display: inline-block;
+    width:200px;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 30px ;
+    background-color:#E1B168;
+}    
+
+.call{
+    display: inline-block;
+    width:200px;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 30px ;
+    padding: 10px 30px;
+    border: 2px solid #E1B168;
+}
+.call a{
+    color: white;
+}
+
+.rezervation a{
+    color:black;
+    padding: 10px 30px;
+    
+}
+nav{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.linkler{
+    display: flex;
+    gap: 20px;
+}
+.linkler .active {
+    color:  #E1B168;
+}
+.nav-link{
+    color: white;
+}
+.sosicalmedia{
+    color: white;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.navigation{
+     border-top:1px solid #b7b6b4;
+     border-bottom: 1px solid #b7b6b4;
+     border-color:#b7b6b4 ;
+     padding: 10px 0;
+}
+.welcomeboxes{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.welcomeboxes p{
+    font-family: Josefin
+    Sans , serif;
+}
+.img img{
+    width: 400px;
+}
+.welcome h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+}
+.welcome{
+    width: 600px;
+}
+.welcome p{
+  color: white;
+  margin: 20px 0;
+}
+.view{
+    display: inline-block;
+    width:150px;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #E1B168;
+    padding: 10px 30px ;
+}
+.view a{
+    color:#E1B168;
+}
+.resataurantbox{
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF1A;
+   
+}
+.dizayn {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  right: 0;
+  opacity: 0.6; 
+  
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 20px; 
+  padding: 60px 0;
+}
+
+.icon {
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+}
+.incoinfo p{
+    font-family: Josefin
+    Sans , serif;
+    font-weight: 350;
+}
+/*-----------------------------*/
+.thedeliciousdescription {
+  background-color: #fff8f5;
+ 
+  color: #333;
+}
+.thediliciousinformation {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+ 
+}
+.thedeliciousimg img {
+  width: 700px;
+}
+.TheDeliciousStory {
+   width: 700px;
+}
+.TheDelicious_heading {
+  font-family: JosefinSans , serif;
+  font-size: 34px;
+  color: #1e1e1e;
+}
+.TheDeliciousStorydescription {
+  margin: 20px 0 40px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #555;
+  font-family: Josefin
+    Sans , serif;
+}
+.dateboxes {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+.datebox{
+      width: 200px;
+}
+.datebox .date {
+  font-size: 28px;
+  color: #1e1e1e;
+  margin-bottom: 8px;
+}
+.dateinforamtion{
+    font-family: Josefin
+    Sans , serif;
+}
+
+.datebox p {
+  font-size: 15px;
+  color: #555;
+}
+.JOSEFINE{
+   font-size: 20px;
+}
+.TheDeliciousStory img {
+  width: 200px;
+  margin-top: 25px;
+}
