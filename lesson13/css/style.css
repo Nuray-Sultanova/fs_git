@@ -1,10 +1,10 @@
+/* font-family: Josefin
+    Sans , serif; */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
-
 }
 .container{
     width: 95%;
@@ -17,8 +17,7 @@ background-color: #292E36;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Josefin
-    Sans , serif;
+    font-family: Josefin Sans , serif;
 }
 .rezervation  { 
     display: inline-block;
@@ -80,13 +79,15 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
+  
 }
 .welcomeboxes p{
     font-family: Josefin
     Sans , serif;
 }
 .img img{
-    width: 400px;
+  padding: 20px 20px 0;
+  width: 600px;
 }
 .welcome h1{
   color: white;
@@ -101,31 +102,41 @@ nav{
   margin: 20px 0;
 }
 .view{
-    display: inline-block;
+    display: flex;
     width:150px;
     justify-content: center;
     align-items: center; 
     border: 1px solid #E1B168;
     padding: 10px 30px ;
+    
 }
 .view a{
     color:#E1B168;
 }
+.view:hover{
+    background-color:#E1B168 ;
+    a{
+      color: white;
+}}
+
 .resataurantbox{
-    display: flex;
-    position: relative;
-    background-color: #FFFFFF1A;
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  background-color: #bbb4b41a;
    
 }
 .dizayn {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 0;
+  width: 300px;
+  height: 300px;
+  top:0;
   right: 0;
-  opacity: 0.6; 
-  
+  opacity: 0.6;
+  color: #292E36;
+ 
 }
+
 .icon img{
     width: 50px;
     height: 50px;
@@ -149,9 +160,8 @@ nav{
     font-weight: 350;
 }
 /*-----------------------------*/
-.thedeliciousdescription {
-  background-color: #fff8f5;
- 
+.thedeliciousdesription {
+ background-color: #FFF8F5;
   color: #333;
 }
 .thediliciousinformation {
@@ -204,7 +214,432 @@ nav{
 .JOSEFINE{
    font-size: 20px;
 }
+/* 3cu hisse */
 .TheDeliciousStory img {
   width: 200px;
   margin-top: 25px;
+}
+.menu{
+  margin-bottom: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+  padding: 5px 0;
+  h6{
+    font-size: 15px;
+  }
+}
+.menu-left img{
+  display: block;
+  margin: 20px 0;
+  
+}
+.menu-left{
+  width: 600px;
+}
+.menu-container{
+  font-weight: 300;
+  font-family: Josefin Sans , serif;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 50px auto;
+}
+
+.menu-container h3{
+  margin-bottom: 20px;
+}
+.menu-container h4{
+  margin: 20px 0;
+}
+.see-dishes-btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 20px 30px;
+  border: 1px solid #E1B168;
+  color: #E1B168;
+}
+.menu-left a:hover{
+ background-color: #E1B168;
+ color: white;
+ transition: 0.3s;
+}
+.menu-item{
+  display: flex;
+  align-items: end;
+}
+
+.menu-item-information{
+  width: 70%;
+  /* background-color: red; */
+  display: inline-block;
+}
+.name_and_price{
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+/* 4cu hisse  */
+
+.testimonial{
+    color: white;
+    font-weight:300;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+}
+.subtitle{
+  display: inline-block;
+  border-top: 1px  solid #E1B168;
+  border-bottom: 1px solid #E1B168;
+  padding: 5px 0;
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: 200;
+}
+.subtitle_heading1{
+  font-size: 25px;
+  font-weight: 200; 
+  font-family: Josefi Sans , serif;
+}
+.subtitle_heading2{
+  font-size: 16px;
+  font-weight: 200;
+  font-family: Josefi Sans , serif;
+  margin: 10px 0 25px;
+}
+
+.card{
+  padding: 0 10px;
+  font-family: Josefi Sans , serif;
+}
+.personinformaiton{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  font-weight: 250;
+}
+.personname p{
+ font-size: 20px;
+}
+.testimonial{
+  background-color: #292E36;
+  padding:60px 0;
+}
+.card{
+  font-family:Josefin
+    Sans , serif; 
+    background-color: #343942;
+    color: #fff;
+    padding:0 15px ;
+}
+.personname span{
+  color: #E1B168;
+}
+.cardtext{
+  border-top:1px solid #797E89 ;
+  padding-top:20px ;
+}
+.restaurant-image img{
+  width: 100%;
+  object-fit: cover;
+}
+
+/* 5ci hisse */
+.offerfirst
+{
+  text-align: center;
+}
+.OFFERS{
+  margin: 100px 0;
+  display: block;
+  font-family: Josefin
+    Sans , serif; 
+    color: #292E36;
+}
+.offer{
+  border-top: 2px  solid #E1B168;
+  border-bottom: 2px solid #E1B168;
+  display: inline-block;
+  padding: 5px 0;
+}
+.offer_heading{
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 350;
+
+}
+.dishesboxes{
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.burgerbox{
+  width: 50%;
+  height: 350px;
+  /* border: 1px solid black; */
+  background-image: url(../images/burgerbg.png);
+  position: relative;
+}
+.burger-image{
+  top: 30px;
+  right: 30px;
+  position: absolute;
+}
+.cloud {
+  width: 150px;
+  height: 100px;
+  background-image: url(../images/cloud.png) ;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.burgerinformation{
+  margin: 35px;
+}
+.Offer_Going{
+  margin: 20px 0;
+  padding: 5px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.burger_description{
+  width: 30%;
+  margin-top: 20px;
+
+}
+.burgername_heading{
+  font-size: 30px;
+  font-weight: 300;
+}
+.cloud img{
+  color: white;
+  position: absolute;
+}
+.pizzabox{
+  width: 50%;
+  height: 350px;
+  /* border: 1px solid black; */
+  background-image: url(../images/pizzabg.png);
+  position: relative;
+}
+.pizza-image{
+  right: 30px;  
+  position: absolute;
+
+}
+
+/* 6ci hhisse */
+.description-of-menu{
+  text-align: center;
+  font-family: Josefin Sans , serif;
+  color: #292E36;
+  margin:20px 0 ;
+}
+.Popular_Dishes{
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 350;}
+
+.menuword{
+  border-top: 2px  solid #E1B168;
+  border-bottom: 2px solid #E1B168;
+  display: inline-block;
+  padding: 5px 0;
+}
+.Populardishesboxes{
+  font-family:Josefin Sans , serif; ;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+.dishesbox{
+  width: 350px;
+ 
+  img{
+    width: 100%;
+
+  }
+ }
+ .dish_last_line{
+  margin: 20px 0;
+ }
+.active{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 8px 0;
+  border-bottom: 1px solid rgb(61, 61, 61);
+}
+.dishname_and_price{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgb(61, 61, 61);
+}
+.section_6{
+margin: 60px 0;
+}
+.button{
+  /* background-color: red; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.button:hover{
+ 
+  background-color: #E1B168;
+  a{
+    color: white;
+  }
+}
+.see-dishes-btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 20px 30px;
+  border: 1px solid #E1B168;
+  color: #E1B168;
+}
+.section7{
+  background-color: #292E36;
+  padding: 100px 0;
+  font-family: Josefin Sans , serif;
+  color: white;
+  font-weight: 250;
+}
+.what_we_offer{
+  padding: 5px 0;
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.Our_services{
+  margin: 20px 0;
+  font-size: 35px;
+}
+.offertext{
+  font-size: 20px;
+}
+.offersboxs
+{
+  display: flex;
+  gap: 50px;
+}
+.offerbox{
+  display: inline-block;
+  /* background-color: #fff; */
+  padding: 20px;
+  width: 40%;
+}
+.iconbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292E36;
+  border: 15px solid #323841;
+  text-align: center;  
+  padding: 50px;
+}
+.iconboxes{
+  display: flex;
+  gap: 20px;
+}
+.iconandtxtbox{
+  p{
+    font-size: 20px;
+  }
+}
+.section8{
+  margin: 100px 0;
+  font-family: Josefin Sans,serif;
+}.blogbox{
+  text-align: center;
+}
+.Blog{
+  color: #292E36;
+  padding: 5px 0;
+  padding: 5px 0;
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.BeFirst{
+  margin: 20px 0;
+  font-size: 30px;
+}
+.last{
+  margin: 5px 0;
+}
+.mindboxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+ 
+}
+.mindbox{
+  width:100%;
+  height: 500px;
+}
+.mindbox-image{
+ background-image: url(../images/pide.png);
+ width: 100%;
+ height: 70%;
+ background-color: rgba(0, 0, 0, 1.5);
+ background-size: cover;
+ background-image: center;
+ background-repeat: no-repeat;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.mindbox-image2{
+ background-image: url(../images/barbecue.png);
+ width: 100%;
+ height: 70%;
+ background-color: rgba(0, 0, 0, 1.5);
+ background-size: cover;
+ background-image: center;
+ background-repeat: no-repeat;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.view-button{
+  padding: 10px 20px;
+  background-color: #E1B168;
+  display: flex;
+  color: white;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:transleate(-50%,-50%);
+  */
+  
 }
