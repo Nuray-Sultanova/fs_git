@@ -63,7 +63,7 @@
 // console.log(y);
 
 // 7.Funksiya yazın,qəbul etdiyi parametrin baş hərfini böyütsün və ekarana yazdırsın
-// const uppercase_of_first_letter=()=>{
+// const uppercase_of_first_letter=(mesaj)=>{
 // return mesaj[0].toUpperCase()+mesaj.slice(1);
 // }
 // let mesaj=prompt("mesaj daxil edin:")
