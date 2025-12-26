@@ -260,3 +260,110 @@
 
 // student.email = "ramin@mail.com";
 // console.log(student);
+
+// evde  ardi -------12.24.2025
+
+// TAPŞIRIQ 8
+
+// 1–100 arası yalnız 5-ə bölünən, amma 3-ə bölünməyən ədədləri çıxar
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 5 == 0 && i % 3 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// TAPŞIRIQ 9
+
+const numbers = [4, 7, 1, 9, 2, 7, 4];
+// a. Array-də ən böyük və ən kiçik ədədi tap
+// let min = numbers[0];
+// let max = numbers[0];
+// numbers.forEach((n) => {
+//   if (min > n) {
+//     min = n;
+//   }
+//   if (max < n) {
+//     max = n;
+//   }
+// });
+// console.log(max, min);
+
+// b. Array-də yalnız cüt ədədlərdən yeni array yarat
+// let new_arr = [];
+// numbers.forEach((n) => {
+//   if (n % 2 == 0) {
+//     new_arr.push(n);
+//   }
+// });
+// console.log(new_arr);
+
+//2
+// let new_arr = numbers.filter((n) => n % 2 === 0);
+// console.log(new_arr);
+
+// c. Array elementlərinin cəmini tap
+// let cem = 0;
+// numbers.forEach((n) => {
+//   cem += n;
+// });
+// console.log(cem);
+
+// ///////////////////d. Array-də neçə ədəd tək ədəd var
+// let new_Arr = numbers.filter((n) => n % 2 === 1);
+// console.log(new_Arr.length);
+
+// // //////e. Array-i tərsinə çevir (hazır reverse istifadə etmə)
+// let new_arr = [];
+// for (let i = numbers.length - 1; i >= 0; i--) {
+//   new_arr.push(numbers[i]);
+// }
+// console.log(new_arr);
+// f. Array-də verilmiş ədədin index-ini tap (yoxdursa -1)
+
+console.log(numbers.findIndex((n) => n === 5));
+
+// ////g. Array-də ilk təkrarlanmayan elementi tap
+
+// h. Array-i artan sıra ilə sırala (sort qadağandır)
+// let my_arr = [];
+// for (let i = 0; i <= numbers.length; i++) {
+//   for (let j = 0; j <= numbers.length; j++) {
+//     if (numbers[i] < numbers[j + 1]) {
+//       my_arr.push(numbers[i]);
+//     }
+//   }
+// }
+// console.log(my_arr);
+
+// i. Array-də ən çox təkrarlanan ədədi tap
+let count = 0;
+for (let i = 0; i <= numbers.length - 1; i++) {
+  if (numbers[i] == numbers[i + 1]) {
+    count++;
+  }
+  console.log(`${numbers[i]}:${count}`);
+}
+
+// TAPŞIRIQ 10
+
+// FizzBuzz: 1-dən 100-ə qədər ədədləri çap et, amma 3-ə bölünən ədədlər yerinə "Fizz",
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 == 0) {
+//     console.log("fizz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+// 5-ə bölünən ədədlər yerinə "Buzz", həm 3-ə həm də 5-ə bölünən ədədlər yerinə "FizzBuzz" yaz
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 3 == 0 && i % 5 == 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 3 == 0) {
+//     console.log("Fizz");
+//   } else if (i % 5 == 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }

@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #14143b;
+  padding-top: 20px;
+}
+
+.navigation nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 10px;
+  font-size: 1em;
+}
+.navigation nav a:hover {
+  background-color: #343454;
+}
+.navigation nav p {
+  color: white;
+  padding: 12px 5px;
+  font-size: 0.9em;
+}
+.navigation nav h2 {
+  margin: 10px 10px;
+  color: white;
+}
+.navigation nav .second {
+  color: rgb(32, 32, 148);
+}
+.nav-heading {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(155, 180, 189);
+  margin-bottom: 10px;
+}
+main {
+  margin-left: 220px;
+}
+.icon-box {
+  width: 45px;
+  height: 45px;
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.right-section {
+  display: flex;
+  justify-content: center;
+}
+.icon-box p {
+  padding: 10px;
+}
+.right-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.top p {
+  font-weight: bold;
+}
+.admin {
+  font-size: 14px;
+  font-weight: bold;
+}
+.vaps_root {
+  font-size: 12px;
+  text-align: right;
+}
+
+.packages-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.first-line {
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  padding: 15px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.box {
+  margin: 0 20px;
+  width: 400px;
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: white;
+}
+.starter {
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: rgb(73, 106, 166);
+  padding: 5px 10px;
+  text-align: center;
+  color: rgb(82, 27, 130);
+  font-weight: bold;
+}
+.active {
+  font-size: 12px;
+  border-radius: 15px;
+  background-color: lightgreen;
+  padding: 5px 10px;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+.boxes {
+  display: flex;
+}
+.information-users {
+  font-size: 14px;
+  color: grey;
+}
+.create-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.container {
+  background-color: rgb(246, 249, 250);
+  height: 100vh;
+}
