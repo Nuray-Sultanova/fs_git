@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: 320px;
+        padding: 25px;
+        margin: 120px auto;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      }
+
+      label {
+        font-size: 14px;
+        color: #333;
+      }
+
+      form input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+        font-size: 14px;
+        transition: border 0.3s;
+      }
+
+      form input:focus {
+        border-color: #667eea;
+      }
+
+      button {
+        margin-top: 15px;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #667eea;
+        color: white;
+        font-size: 15px;
+      }
+
+      button:hover {
+        background-color: #5a67d8;
+        transform: translateY(-2px);
+      }
+
+      a {
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+        color: #667eea;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="loginForm" onsubmit="saveData(event)">
+      <label>Ad</label>
+      <input type="text" id="name" />
+
+      <label>Soyad</label>
+      <input type="text" id="surname" />
+
+      <label>Yaş</label>
+      <input type="number" id="age" />
+
+      <label>Email</label>
+      <input type="email" id="email" />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="profile" style="display: none">
+      <h2>İstifadəçi Məlumatları</h2>
+      <p id="info"></p>
+      <button onclick="logout()">Çixis et</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

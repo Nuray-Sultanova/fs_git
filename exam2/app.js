@@ -9,3 +9,6 @@
 //8 B
 //9 B
 //10 B
+
+const inputs_types = document.getElementById("input_types");
+

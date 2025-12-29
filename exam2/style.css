@@ -5,7 +5,6 @@
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
-
 .navigation {
   position: fixed;
   top: 0;
@@ -15,12 +14,13 @@
   background-color: #14143b;
   padding-top: 20px;
 }
-
 .navigation nav {
   display: flex;
   flex-direction: column;
+  i {
+    margin-right: 10px;
+  }
 }
-
 .navigation nav a {
   color: white;
   text-decoration: none;
@@ -77,7 +77,7 @@ main {
 .top {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 15px 20px;
   align-items: center;
   /* border: 1px solid black; */
 }
@@ -116,6 +116,10 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   background-color: white;
 }
+.box:hover {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
 .starter {
   font-size: 12px;
   border-radius: 15px;
@@ -153,4 +157,52 @@ main {
 .container {
   background-color: rgb(246, 249, 250);
   height: 100vh;
+}
+
+/* -----------------------my tasks pages-------------------------- */
+.My_tasks {
+  padding: 20px;
+}
+.TC {
+  font-size: 12px;
+  color: grey;
+  font-weight: 550;
+}
+.my_task_box {
+  margin: 0 20px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-left: 5px solid blue;
+  border-radius: 10px;
+}
+.my_tasks_boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.my_taks_box .Gamma {
+  font-size: 5px;
+}
+#input_types {
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px 0 white;
+  font-weight: bold;
+  padding: 0 10px;
+  color: black;
+}
+.task-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.my_taks_first-line p:first-child {
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+}
+.my_taks_first-line p:last-child {
+  font-weight: 600;
 }
