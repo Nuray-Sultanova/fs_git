@@ -60,3 +60,22 @@
 //     });
 //   }
 // };
+
+// const endpoint = "https://jsonplaceholder.typicode.com/posts";
+// const xhr = new XMLHttpRequest();
+// xhr.open("Get", endpoint);
+// xhr.send();
+
+// xhr.onreadystatechange = () => {
+//   if (xhr.onReadyState === 4) {
+//     const data = JSON.parse(xhr.response);
+//     const posts = document.getElementById("posts");
+
+//     data.forEach(({ body, title }) => {
+//       posts.innerHTML += `<div class="post">
+//     <p>${body}</p>
+//     <p>${title}</p>
+//     </div>`;
+//     });
+//   }
+// };

@@ -1,0 +1,11 @@
+Movzu :SetTimeout
+SetTimeout(()=>{
+    console.log("salam");
+},3000)
+3000 -3000ms dir-3san den sonra ishe dushur  
+
+SetTimeout 1 defe ishleyir
+
+SetInterval(()=>{},1000)--dayanmadan bir ishi gorur
+
+     

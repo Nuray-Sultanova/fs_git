@@ -1,0 +1,53 @@
+body {
+  background: radial-gradient(circle at top, #111 0%, #000 60%);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SAAT */
+#clock {
+  min-width: 260px;
+  padding: 40px 30px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #00fff0;
+
+  border-radius: 16px;
+  border: 2px solid rgba(0, 255, 240, 0.4);
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 0 20px rgba(0, 255, 240, 0.4),
+    inset 0 0 15px rgba(0, 255, 240, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effekti */
+#clock:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 35px rgba(0, 255, 240, 0.8),
+    inset 0 0 20px rgba(0, 255, 240, 0.4);
+}
