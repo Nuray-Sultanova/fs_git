@@ -1,28 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="az">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Əlaqə Formu</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <button type="submit" class="btn" onclick="openPopup()">Submit</button>
-      <div class="popup" id="popup">
-        <img src="./images/404-tick.png" alt="" />
-        <h2>Thank you</h2>
-        <p>Your deatils has been successfully submitted.Thaks!</p>
-        <button type="button" onclick="closePopup()">OK</button>
+      <div class="contact-box">
+        <h2>Bizimlə Əlaqə</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Adınız" required />
+          <input type="email" placeholder="E-mail ünvanınız" required />
+          <textarea placeholder="Mesajınız" rows="5"></textarea>
+          <button type="submit" class="btn">Göndər</button>
+        </form>
+      </div>
+
+      <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/190/190411.png"
+            alt="Success"
+          />
+          <h2>Təşəkkürlər!</h2>
+          <p>Məlumatlarınız uğurla göndərildi. Tezliklə sizə geri dönəcəyik.</p>
+          <button type="button" onclick="closePopup()">Oldu</button>
+        </div>
       </div>
     </div>
+
     <script>
       let popup = document.getElementById("popup");
+      let overlay = document.getElementById("overlay");
+      let form = document.getElementById("contactForm");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        openPopup();
+      });
+
       function openPopup() {
         popup.classList.add("open-popup");
+        overlay.classList.add("open-overlay");
       }
+
       function closePopup() {
         popup.classList.remove("open-popup");
+        overlay.classList.remove("open-overlay");
+        form.reset();
       }
     </script>
   </body>

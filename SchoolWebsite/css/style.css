@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/image\ 18.png); 
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.linkler {
+    display: flex;
+    gap: 20px;
+}
+
+.linkler a {
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.linkler a:hover {
+    color: #0193DC;
+}
+
+.informationbox {
+    margin-top: 100px;
+    width: 650px;
+}
+
+.informationbox h2 {
+    margin: 25px 0 45px; 
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+/* button */
+.button {
+    margin-top: 20px;
+}
+
+.button a {
+    background-color: #0193DC;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button a:hover {
+    background-color: #017bb8;
+    transform: translateY(-2px);
+}
+
+/* Orta Hissələr */
+.videopart {
+    display: flex;
+    gap: 50px;
+    padding: 80px 0;
+    align-items: center;
+}
+
+.videopart img {
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.bg-container {
+    background-color: #F9FBFD;
+    padding: 60px 0;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Profilpart {
+    width: 40%;
+}
+
+.Profilpart h2 {
+    margin-bottom: 20px;
+}
+
+.boxes {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    width: 260px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* Berita  Agenda */
+.searching {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 30px;
+}
+
+input {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    width: 350px;
+    outline: none;
+}
+
+.qutu {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.boxesofagenda {
+    flex: 2.5;
+}
+
+.agendabox {
+    display: flex;
+    background: white;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.agendaimg img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.agendainformation {
+    padding: 25px;
+}
+
+.date {
+    color: #888;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.boxesofagenda2 {
+    flex: 1;
+}
+
+.iconboxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.iconboxes img {
+    width: 45px;
+    height: 45px;
+}
+
+/* Gallery */
+.gallery-bg {
+    background-color: #F2F2F2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.galleryboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.gallerybox {
+    width: 31%;
+}
+
+.gallerybox img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*  FOOTER */
+footer {
+    background-color: #1a1a1a; 
+    color: #ffffff;
+    padding: 80px 0 40px;
+}
+
+.footersection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infosec {
+    width: 30%;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.infosec h4 {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #fff;
+    border-left: 3px solid #0193DC;
+    padding-left: 10px;
+}
+
+.infosec p {
+    margin-bottom: 12px;
+    color: #bbb; 
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.infosec p:hover {
+    color: #fff;
+    cursor: pointer;
+}
